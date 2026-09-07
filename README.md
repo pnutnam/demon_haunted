@@ -25,3 +25,10 @@ Point sherpa-onnx's `OfflineTtsVitsModelConfig` at the three files and go.
   Personal/educational use; the voice likeness belongs to his estate's legacy.
 - 4 flow... no training steps hidden: trained 2026-09-05/06, ~11k fine-tune
   steps, checkpoint picked by ear from 31 machine-scored candidates.
+
+## Variants
+
+- `vits-piper-sagan-medium.tar.bz2` — v3b +7002 checkpoint (41 min curated
+  corpus, local RTX 4000). The shipped default.
+- `vits-piper-sagan-v5-medium.tar.bz2` — independent candidate (2.7 h corpus,
+  Colab L4), metadata-stamped; kept for A/B.
